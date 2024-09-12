@@ -5,13 +5,14 @@ Created on Sun Sep  8 07:53:43 2024
 """
 import modulo
 import json
+import pprint
 
 while True:
     try:
         # Recebe input do usuário e aplica a função
         file = input("Insira o arquivo json que deve ser reproduzido: ")
         arquivo = modulo.carrega_conteudos_json(file)
-        print(arquivo)
+        pprint.pp(arquivo)
         
         # Se obtém sucesso, quebra o loop
         break
