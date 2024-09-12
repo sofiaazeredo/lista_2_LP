@@ -89,7 +89,7 @@ def exercicio2(ponto1: tuple, ponto2: tuple) -> tuple:
     if ponto1 == ponto2:
         raise KeyError("Uma reta só pode ser dada a partir de dois pontos diferentes contidos nela.")
     If ponto1[0] == ponto2[0]:
-        raise ZeroDivisionError("Essa é vertical, o coeficiente angular não existe.")
+        raise ZeroDivisionError("Essa reta é vertical, o coeficiente angular não existe.")
     
     x, y = ponto1
     a, b = ponto2
