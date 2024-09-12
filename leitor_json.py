@@ -12,7 +12,7 @@ while True:
         # Recebe input do usuário e aplica a função
         file = input("Insira o arquivo json que deve ser reproduzido: ")
         arquivo = modulo.carrega_conteudos_json(file)
-        pprint.pp(arquivo)
+        pprint.pprint(arquivo)
         
         # Se obtém sucesso, quebra o loop
         break
